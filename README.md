@@ -81,6 +81,7 @@ Written Response Solutions (Stored in the repository under "COP4533_ProgAssi2_Wr
 <br>
 Question 1: 
 
+<br>
 <img width="849" height="322" alt="image" src="https://github.com/user-attachments/assets/22d53d6d-c12f-4070-b7a9-9e7b0a8aceb9" />
 
 - OPTFF has the fewest misses across all files apart from Input2.txt, which itself was an input to test how many misses each algorithm would have if the size of the cache was the same as the total possible numerical options.
