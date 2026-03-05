@@ -3,7 +3,7 @@
 Contributors:
 - Jacob DeWese (UFID: 33420894)
 
-
+<br>
 Instructions to compile code (command line):
 1. Download the zip file and extract.
 
