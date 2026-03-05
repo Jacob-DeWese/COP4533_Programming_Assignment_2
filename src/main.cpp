@@ -49,11 +49,22 @@ int main(int argc, char* argv[]) {
         cerr << "Error opening file " << outputFileName << endl;
     }
     int fifoMisses = simFIFO(k, inputSequence);
-    outputFile << "FIFO: " << fifoMisses << endl;
+    outputFile << "FIFO  : " << fifoMisses << endl;
     int lruMisses = simLRU(k, inputSequence);
-    outputFile << "LRU: " << lruMisses << endl;
+    outputFile << "LRU   : " << lruMisses << endl;
     int optffMisses = simOPTFF(k, inputSequence);
-    outputFile << "OPTFF: " << optffMisses << endl;
+    outputFile << "OPTFF : " << optffMisses << endl;
+
+    // Prints out the contents of the file (mainly for command prompt purposes)
+    ifstream outputFileRead(outputFileName);
+    cout << endl;
+    cout << "Output from: " << outputFileName << endl;
+    string line;
+    if (outputFile.is_open()) {
+        while (getline(outputFileRead, line)) {
+            cout << line << endl;
+        }
+    }
 
     outputFile.close();
 

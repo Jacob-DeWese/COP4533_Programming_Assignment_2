@@ -52,14 +52,14 @@ build cmake_object_order_depends_target_COP4533_Prog_Assi2: phony || .
 build CMakeFiles/COP4533_Prog_Assi2.dir/src/main.cpp.obj: CXX_COMPILER__COP4533_Prog_Assi2_unscanned_Debug C$:/Users/thear/CLionProjects/COP4533_Prog_Assi2/src/main.cpp || cmake_object_order_depends_target_COP4533_Prog_Assi2
   CONFIG = Debug
   DEP_FILE = CMakeFiles\COP4533_Prog_Assi2.dir\src\main.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -static-libgcc -static-libstdc++ -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\COP4533_Prog_Assi2.dir
   OBJECT_FILE_DIR = CMakeFiles\COP4533_Prog_Assi2.dir\src
 
 build CMakeFiles/COP4533_Prog_Assi2.dir/src/CacheAlgorithms.cpp.obj: CXX_COMPILER__COP4533_Prog_Assi2_unscanned_Debug C$:/Users/thear/CLionProjects/COP4533_Prog_Assi2/src/CacheAlgorithms.cpp || cmake_object_order_depends_target_COP4533_Prog_Assi2
   CONFIG = Debug
   DEP_FILE = CMakeFiles\COP4533_Prog_Assi2.dir\src\CacheAlgorithms.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -static-libgcc -static-libstdc++ -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\COP4533_Prog_Assi2.dir
   OBJECT_FILE_DIR = CMakeFiles\COP4533_Prog_Assi2.dir\src
 
@@ -73,7 +73,7 @@ build CMakeFiles/COP4533_Prog_Assi2.dir/src/CacheAlgorithms.cpp.obj: CXX_COMPILE
 
 build COP4533_Prog_Assi2.exe: CXX_EXECUTABLE_LINKER__COP4533_Prog_Assi2_Debug CMakeFiles/COP4533_Prog_Assi2.dir/src/main.cpp.obj CMakeFiles/COP4533_Prog_Assi2.dir/src/CacheAlgorithms.cpp.obj
   CONFIG = Debug
-  FLAGS = -g
+  FLAGS = -static-libgcc -static-libstdc++ -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\COP4533_Prog_Assi2.dir
   POST_BUILD = cd .
