@@ -1,4 +1,4 @@
-COP4533 Programming Assignment 2
+# COP4533 Programming Assignment 2
 
 Contributors:
 - Jacob DeWese (UFID: 33420894)
