@@ -79,13 +79,10 @@ Written Response Solutions
 Link to repository: https://github.com/Jacob-DeWese/COP4533_Programming_Assignment_2.git 
  
 Written Component
+
 Question 1: 
-	k	m	FIFO (#Misses)	LRU (#Misses)	OPTFF (#Misses)
-Input1.txt	5	50	35	36	21
-Input2.txt	10	50	10	10	10
-Input3.txt	2	75	69	68	58
-Input4.txt	5	75	54	56	32
-Input5.txt	5	100	72	74	41
+
+<img width="849" height="322" alt="image" src="https://github.com/user-attachments/assets/22d53d6d-c12f-4070-b7a9-9e7b0a8aceb9" />
 
 - OPTFF has the fewest misses across all files apart from Input2.txt, which itself was an input to test how many misses each algorithm would have if the size of the cache was the same as the total possible numerical options.
 
